@@ -1,0 +1,13 @@
+{
+  "name": "Get UrlVimeo",
+  "version": "1.0",
+  "description": "Captura a url do vídeo e salva no localstorage",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+
+  "manifest_version": 2
+}
